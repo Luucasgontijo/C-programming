@@ -23,17 +23,18 @@ void modifyValue(int **ptr){
 void ex3(){
     int x = 10;
     int *ptr1 = &x;
-    int **ptr2 = &ptr1;ı
+    int **ptr2 = &ptr1;
 }
+int test(){
+    char C1[] = "hello";
+    char* C2 = C1;
+    printf("%c\n", C2[1]);
+}
+
+
 
 int main(){
-    ex1();
 
-    int y = 5;
-    int *ptr = &y;
-    int **ptr2 = &ptr;  // Pointer to pointer
-    modifyValue(ptr2);  // Modify the value of y through pointer-to-pointer
-    printf("y after modifyValue = %d\n", y);  // Print the modified value of y
-
-    return 0;
+    test();
 }
+
