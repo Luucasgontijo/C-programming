@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/lucasgontijo/C programming /pointers/nodes'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _insertAtBeginning, symObjAddr: 0x0, symBinAddr: 0x100003D18, symSize: 0x54 }
+  - { offsetInCU: 0x6E, offset: 0x6E, size: 0x8, addend: 0x0, symName: _insertAtBeginning, symObjAddr: 0x0, symBinAddr: 0x100003D18, symSize: 0x54 }
+  - { offsetInCU: 0xAE, offset: 0xAE, size: 0x8, addend: 0x0, symName: _insertAtNthPosition, symObjAddr: 0x54, symBinAddr: 0x100003D6C, symSize: 0xE8 }
+  - { offsetInCU: 0x126, offset: 0x126, size: 0x8, addend: 0x0, symName: _printLinkedList, symObjAddr: 0x13C, symBinAddr: 0x100003E54, symSize: 0x78 }
+  - { offsetInCU: 0x158, offset: 0x158, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1B4, symBinAddr: 0x100003ECC, symSize: 0xB4 }
+...
