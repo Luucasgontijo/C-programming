@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/lucasgontijo/C programming /linkedLists/iterativeReverse'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x0, symBinAddr: 0x100003D64, symSize: 0xB8 }
+  - { offsetInCU: 0x4D, offset: 0x4D, size: 0x8, addend: 0x0, symName: _head, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0x83, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x0, symBinAddr: 0x100003D64, symSize: 0xB8 }
+  - { offsetInCU: 0xC3, offset: 0xC3, size: 0x8, addend: 0x0, symName: _printLinkedList, symObjAddr: 0xB8, symBinAddr: 0x100003E1C, symSize: 0x78 }
+  - { offsetInCU: 0xF5, offset: 0xF5, size: 0x8, addend: 0x0, symName: _reverse, symObjAddr: 0x130, symBinAddr: 0x100003E94, symSize: 0x74 }
+  - { offsetInCU: 0x135, offset: 0x135, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1A4, symBinAddr: 0x100003F08, symSize: 0x70 }
+...
