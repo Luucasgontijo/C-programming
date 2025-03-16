@@ -1,0 +1,19 @@
+# Ignore all executables with no extension (Unix/Mac)
+*
+!/**/
+!*.*
+
+# Ignore executables with .exe extension (Windows)
+*.exe
+
+# Ignore object files
+*.o
+*.obj
+
+# Ignore other common build artifacts
+*.out
+a.out
+*.dSYM/
+
+# Ignore VS Code settings
+.vscode/

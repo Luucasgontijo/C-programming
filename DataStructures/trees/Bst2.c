@@ -15,6 +15,17 @@ bstNode* createNode(int data){
     return newNode;
 }
 
+#define MAX(a, b) ((a) > (b) ? (a) : (b))
+
+
+int findHeight(bstNode* root){
+    if (root == NULL){
+        return -1;
+    }
+    return MAX(findHeight(root->left),findHeight(root->right) +1);
+
+}
+
 void recursionInsert(bstNode** root, int data){
     if ((*root) == NULL){
         (*root) = createNode(data);
@@ -38,6 +49,23 @@ void inorderTraversal(bstNode* root) {
     }
 }
 
+int minVal(bstNode** root){
+    bstNode* curr = (*root);
+    while (curr->left){
+        curr = curr->left;
+    }
+    return curr->data;
+}
+int maxVal(bstNode** root){
+    bstNode* curr = (*root);
+    while (curr->right){
+        curr = curr->right;
+    }
+    return curr->data;
+}
+
+
+
 
 
 
@@ -51,8 +79,8 @@ int main(){
     recursionInsert(&root, 60);
     recursionInsert(&root, 80);
 
-        
-    inorderTraversal(root);
-
-
+    
+    int val = findHeight(root);
+    printf("%d", val);
+    // inorderTraversal(root);
 }
